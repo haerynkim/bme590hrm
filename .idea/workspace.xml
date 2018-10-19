@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a7a2850-502e-410b-b090-0c53402c0cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECGdata/test_data28.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ECGdata/test_data28.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECGdata/test_data29.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ECGdata/test_data29.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECGdata/test_data30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ECGdata/test_data30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECGdata/test_data31.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ECGdata/test_data31.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ECGdata/test_data32.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ECGdata/test_data32.csv" afterDir="false" />
-    </list>
+    <list default="true" id="1a7a2850-502e-410b-b090-0c53402c0cc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +68,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/env/hrm_read.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/env/share/cross_corr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <marker date="1539926393000" expanded="true" signature="41:85" ph="..." />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -230,9 +220,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="40" width="1154" height="663" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27607915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,12 +290,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/cross_corr.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cross_corr.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/env/cross_corr.py" />
+    <entry file="file://$PROJECT_DIR$/cross_corr.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -324,11 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/env/share/cross_corr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <marker date="1539926393000" expanded="true" signature="41:85" ph="..." />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
