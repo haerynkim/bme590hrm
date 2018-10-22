@@ -8,7 +8,7 @@ def read_data(filename):
     voltage = data[:, 1]
     return time, voltage
 
-def voltage_extreme(V):
+def voltage_extremes(V):
     """ This function returns the max and min voltages found from a voltage array in a tuple form.
         :param V:
     :return:
@@ -18,4 +18,13 @@ def voltage_extreme(V):
     """
     maxV = max(V)
     minV = min(V)
-    return tuple([minV,maxV])
+    return (minV,maxV)
+
+def duration(t):
+    """ This function returns a float that represents the duration of the ECG strip.
+
+    :param t: list
+    :return: float
+    """
+    dur = t[-1] - t[0]
+    return float(dur)
