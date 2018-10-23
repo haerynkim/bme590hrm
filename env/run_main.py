@@ -1,17 +1,19 @@
 import matplotlib.pyplot as plt
+from hrm_read import voltage_extremes
 from cross_corr import cross_corr
 from hrm_read import read_data
 from find_peak import find_peak
 from read_bpm import read_bpm
 
-filename = '/Users/haerynkim/PycharmProjects/bme590hrm/env/ECGdata/test_data1.csv'
+filename = '../ECGdata/test_data1.csv'
 
 def main(filename, ):
     time, voltage = read_data(filename)
-    mean_hr_bpm = read_bpm(filename, default_min=20)
-    correlate = cross_corr(voltage, startpoint = 0.5*numpy.pi, endpoint = 1.5*numpy.pi, intrp=15)
+    mean_hr_bpm = read_bpm(filename, starttime=0, endtime=20)
+    correlate = cross_corr(voltage, startpi = 0.5*numpy.pi, endpi = 1.5*numpy.pi, intrp=15)
     peaktime = find_peak(voltage, thres=0.8, min_dist=0.1)
-
+    voltage_extremes = voltage_extremes(voltage)
+    duration = duration(time)
 
 if __name__ == '__main__':
 

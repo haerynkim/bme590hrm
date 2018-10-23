@@ -3,6 +3,6 @@ def create_dictionary():
     return metrics
 
 def add_to_dictionary(dict, key, val):
-    #key is string
+    #test if key is string
     dict[key] = val
     return dict

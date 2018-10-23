@@ -8,7 +8,6 @@ def read_bpm(filename, starttime=0, endtime=20):
     :return:
     """
     time, voltage = read_data(filename)
-    #if user_min < 0 or user_min >
     startidx = time.index(starttime)
     endidx = time.index(endtime)
     time = time[startidx:endidx]
