@@ -1,8 +1,8 @@
 def create_dictionary():
-    metrics = {
-        "mean_hr_bpm": 0,
-        "voltage_extremes": 0,
-        "duration": 0,
-        "num_beats": 0,
-        "beats": 0}
+    metrics = dict()
     return metrics
+
+def add_to_dictionary(dict, key, val):
+    #key is string
+    dict[key] = val
+    return dict
