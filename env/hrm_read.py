@@ -10,9 +10,9 @@ def read_data(filename):
 
 def voltage_extremes(V):
     """ This function returns the max and min voltages found from a voltage array in a tuple form.
-        :param V:
-    :return:
 
+    :param V: list
+    :return: tuple
 
     later: add test to see if voltage_extreme returns tuple. add exceptions to see if a list is passed as input.
     """
@@ -25,6 +25,8 @@ def duration(t):
 
     :param t: list
     :return: float
+
+    add test that checks if t is list
     """
     dur = t[-1] - t[0]
     return float(dur)
