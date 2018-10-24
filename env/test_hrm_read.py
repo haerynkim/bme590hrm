@@ -1,6 +1,5 @@
-#This code tests my functions in the file hrm_read.py
+#This code tests my function voltage_extreme in the file hrm_read.py
 from hrm_read import voltage_extremes
-import pytest
 
 @pytest.mark.parametrize("candidate, expected", [
     ([1, 5, 100], (1,100))

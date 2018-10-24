@@ -10,7 +10,7 @@ from dictionary import create_dictionary
 from dictionary import add_to_dictionary
 from write_json import write_json
 
-filename = '../ECGdata/test_data1.csv'
+filename = 'ECGdata/test_data1.csv'
 
 def main(filename):
     time, voltage = read_data(filename)
