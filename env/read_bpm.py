@@ -12,7 +12,7 @@ def read_bpm(filename, starttime=0, endtime=20):
     endidx = time.index(endtime)
     time = time[startidx:endidx]
     voltage = voltage[startidx:endidx]
-    peakidx = find_peak(voltage, thres=0.8, min_dist=0.1)
+    peakidx, numpeak = find_peak(voltage, thres=0.8, min_dist=0.1)
     peaktimes = time[peakidx]
     rr_int = [t-s for s, t in zip(peaktimes, peaktimes[1:])]
     rr_avg = sum(rr_int) / float(len(rr_int))

@@ -10,6 +10,6 @@ def find_peak(corr, thres=0.8, min_dist=0.1):
     :return: list
     """
     cb = np.array(corr)
-    beats = peakutils.indexes(cb, thres, min_dist)
-    #num_beats = len(beats)
-    return beats
+    beatidx = peakutils.indexes(cb, thres, min_dist)
+    num_beats = len(beats)
+    return beats, num_beats

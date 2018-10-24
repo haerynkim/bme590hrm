@@ -11,3 +11,4 @@ def write_json(filename, dict):
     jsonname = filename[idx:]
     with open(jsonname, 'w') as file:
         json.dump(dict, file)
+    return file
