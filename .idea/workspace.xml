@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a7a2850-502e-410b-b090-0c53402c0cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a7a2850-502e-410b-b090-0c53402c0cc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,7 @@
     <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1154" />
-    <option name="height" value="663" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
@@ -232,7 +230,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1154" height="663" extended-state="0" />
+    <frame x="22" y="23" width="1154" height="754" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20053957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -248,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.380035" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2994746" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42296073" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32749563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
