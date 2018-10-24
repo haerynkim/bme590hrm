@@ -3,7 +3,7 @@ import numpy
 def read_data(filename):
     """ This function reads a .csv file and extracts time and voltage arrays.
 
-    :param filename: .csv
+    :param filename: .csv files
     :return: lists
     """
     data = numpy.genfromtxt(filename, delimiter=',')

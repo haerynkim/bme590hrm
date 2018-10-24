@@ -1,9 +1,10 @@
 #This code tests my function voltage_extreme in the file hrm_read.py
 from hrm_read import voltage_extremes
+import pytest
 
 @pytest.mark.parametrize("candidate, expected", [
-    ([1, 5, 100], (1,100))
-    ([8, 9, 10, 11], (8,11))
+    ([1, 5, 100], (1,100)),
+    ([8, 9, 10, 11], (8,11)),
     ([-100, 9, 7, 65, 1], (-100, 65))
 ])
 
