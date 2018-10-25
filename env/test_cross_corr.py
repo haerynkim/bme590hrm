@@ -18,4 +18,4 @@ y2 = [9.87463956e-01, 1.43794839e+00, 1.32886413e+00, 1.15314508e+00,
 
 def test_cross_corr(candidate, expected):
     response = cross_corr(candidate, startpi = 0.5*numpy.pi, endpi = 1.5*numpy.pi, intrp=15)
-    assert response == expected
+    numpy.testing.assert_array_almost_equal(response, expected)
