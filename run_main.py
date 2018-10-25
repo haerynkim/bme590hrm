@@ -13,7 +13,8 @@ def main(filename):
     time, voltage = read_data(filename)
     mean_hr_bpm = read_bpm(filename, starttime=0, endtime=20)
     correlate = cross_corr(voltage, startpi = 0.5*numpy.pi, endpi = 1.5*numpy.pi, intrp=15)
-    beats, num_beats = find_peak(correlate, thres=0.8, min_dist=0.1)
+    beatidx, num_beats = find_peak(correlate, thres=0.8, min_dist=0.1)
+    beats = time[beatidx]
     voltage_extremes = voltage_extremes(voltage)
     duration = duration(time)
     metrics = dict()
