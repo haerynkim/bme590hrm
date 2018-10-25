@@ -1,12 +1,9 @@
-import matplotlib.pyplot as plt
-from hrm_read import voltage_extremes
 from cross_corr import cross_corr
 from hrm_read import read_data
 from hrm_read import duration
 from hrm_read import voltage_extremes
 from find_peak import find_peak
 from read_bpm import read_bpm
-from dictionary import create_dictionary
 from dictionary import add_to_dictionary
 from write_json import write_json
 
