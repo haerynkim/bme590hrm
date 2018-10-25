@@ -1,5 +1,11 @@
 def add_to_dictionary(dict, key, val):
-    #test if key is string
+    """ This code adds the arguments of a key and value pair into the dictionary called dict.
+
+    :param dict: dictionary
+    :param key: string
+    :param val: float
+    :return: dictionary
+    """
     if type(key) != str:
         raise TypeError("Key is not a string")
     dict[key] = val
