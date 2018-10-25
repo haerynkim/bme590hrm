@@ -1,7 +1,4 @@
 import numpy
-import matplotlib
-import matplotlib.pyplot as plt
-import peakutils
 
 def cross_corr(vol, startpi = 0.5*numpy.pi, endpi = 1.5*numpy.pi, intrp=15):
     """This function will generate a sine wave given an array of intrp number of elements
