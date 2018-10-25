@@ -19,7 +19,7 @@ def main(filename):
     beats, num_beats = find_peak(correlate, thres=0.8, min_dist=0.1)
     voltage_extremes = voltage_extremes(voltage)
     duration = duration(time)
-    metrics = create_dictionary()
+    metrics = dict()
     metrics = add_to_dictionary(metrics, 'mean_hr_bpm', mean_hr_bpm)
     metrics = add_to_dictionary(metrics, 'voltage_extremes', voltage_extremes)
     metrics = add_to_dictionary(metrics, 'duration', duration)
