@@ -27,8 +27,3 @@ def read_bpm(filename, starttime=0, endtime=20):
     rr_avg = sum(rr_int) / float(len(rr_int))
     mean_hr_bpm = 60/rr_avg
     return float(mean_hr_bpm)
-
-if __name__ == "__main__":
-    bpm = read_bpm('ECGdata/test_data1.csv', 0, 20)
-    print(bpm)
-    print(type(bpm))
