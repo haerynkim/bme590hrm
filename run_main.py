@@ -1,3 +1,4 @@
+import sys
 from cross_corr import cross_corr
 from hrm_read import read_data
 from hrm_read import duration
@@ -11,6 +12,10 @@ filename = 'ECGdata/test_data1.csv'
 
 def main(filename):
     time, voltage = read_data(filename)
+    try:
+        detect_abnormal_val(voltage)
+    except ValueError:
+        sys.exit('Voltage out of this world. Consult doctor immediately.')
     mean_hr_bpm = read_bpm(filename, starttime=0, endtime=20)
     correlate = cross_corr(voltage, startpi = 0.5*numpy.pi, endpi = 1.5*numpy.pi, intrp=15)
     beatidx, num_beats = find_peak(correlate, thres=0.8, min_dist=0.1)
