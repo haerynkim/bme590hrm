@@ -1,6 +1,7 @@
 import numpy as np
 import peakutils
 
+
 def find_peak(corr, thres=0.5, min_dist=0.1):
     """
     This function finds the peaks of a given an array, given parameters like threshold (default 0.5) and minimum
