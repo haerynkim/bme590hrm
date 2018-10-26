@@ -1,9 +1,11 @@
+from warnings import warn
 import numpy
 from hrm_read import read_data
 from find_peak import find_peak
 
 def read_bpm(filename, starttime=0, endtime=20):
-    """ This function calculates the average heart rate over user-specified number of minutes.
+    """ This function calculates the average heart rate over user-specified integer number of seconds and returns
+    value as a float. If user inputs a float as arguments, the function will generate a warning.
 
     :param filename: .csv file
     :param starttime: int
@@ -11,6 +13,10 @@ def read_bpm(filename, starttime=0, endtime=20):
     :return: float
     """
     time, voltage = read_data(filename)
+    if type(starttime) != int or type(endtime) != int:
+        warn("System expects integers for starttime or endtime.")
+        starttime = round(starttime)
+        endtime = round(endtime)
     startidx = numpy.where(time==starttime)[0][0]
     endidx = numpy.where(time==endtime)[0][0]
     time = time[startidx:endidx+1]
@@ -23,6 +29,6 @@ def read_bpm(filename, starttime=0, endtime=20):
     return float(mean_hr_bpm)
 
 if __name__ == "__main__":
-    bpm = read_bpm('ECGdata/test_data5.csv', 0, 20)
+    bpm = read_bpm('ECGdata/test_data1.csv', 0, 20)
     print(bpm)
     print(type(bpm))
