@@ -1,6 +1,9 @@
 from hrm_read import read_data
 
 def test_read_data():
+    """
+    This test checks if the two columns of the test data have been read in correctly via spot-testing.
+    """
     t, V= read_data('./ECGdata/test_data1.csv')
     assert t[0] == 0
     assert V[0] == -0.145
