@@ -22,4 +22,3 @@ def write_json(filename, dict):
             dict[key] = value
     with open(jsonname, 'w') as fp:
         json.dump(dict, fp)
-
