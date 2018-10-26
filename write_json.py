@@ -12,5 +12,14 @@ def write_json(filename, dict):
     filename = filename.replace('csv', 'json')
     idx = filename.rfind('/') + 1
     jsonname = filename[idx:]
-    with open(jsonname, 'w') as file:
-        json.dump(dict, file)
+    for key, value in dict.items():
+        try:
+            value = iter(value)
+        except TypeError:
+            pass
+        else:
+            value = list(value)
+            dict[key] = value
+    with open(jsonname, 'w') as fp:
+        json.dump(dict, fp)
+
