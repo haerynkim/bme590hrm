@@ -1,5 +1,5 @@
 def add_to_dictionary(dict, key, val):
-    """ This code adds the arguments of a key and value pair into the dictionary called dict.
+    """ This code adds the arguments of a key and value pair into the dictionary called dict and returns the updated dictionary.
 
     :param dict: dictionary
     :param key: string
