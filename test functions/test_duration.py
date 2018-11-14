@@ -1,4 +1,4 @@
-from hrm_read import duration
+from functions.hrm_read import duration
 import pytest
 import numpy
 

@@ -1,5 +1,5 @@
 import pytest
-from cross_corr import cross_corr
+from functions.cross_corr import cross_corr
 import numpy
 
 x = numpy.linspace(0.5 * numpy.pi, 1.5 * numpy.pi, 15)

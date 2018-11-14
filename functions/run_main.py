@@ -1,13 +1,13 @@
 import sys
-from cross_corr import cross_corr
-from hrm_read import read_data
-from hrm_read import duration
-from hrm_read import voltage_extremes
-from find_peak import find_peak
-from read_bpm import read_bpm
-from dictionary import add_to_dictionary
-from write_json import write_json
-from detect_abnormal_val import detect_abnormal_val
+from functions.cross_corr import cross_corr
+from functions.hrm_read import read_data
+from functions.hrm_read import duration
+from functions.hrm_read import voltage_extremes
+from functions.find_peak import find_peak
+from functions.read_bpm import read_bpm
+from functions.dictionary import add_to_dictionary
+from functions.write_json import write_json
+from functions.detect_abnormal_val import detect_abnormal_val
 import numpy
 
 def main(filename):
@@ -32,5 +32,5 @@ def main(filename):
 
 
 if __name__ == '__main__':
-    filename = 'ECGdata/test_data31.csv'
+    filename = 'ECGdata/test_data1.csv'
     main(filename)

@@ -1,6 +1,6 @@
 import pytest
 import numpy
-from detect_abnormal_val import detect_abnormal_val
+from functions.detect_abnormal_val import detect_abnormal_val
 
 
 def test_detect_abnormal_val():

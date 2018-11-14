@@ -1,5 +1,5 @@
 import pytest
-from dictionary import add_to_dictionary
+from functions.dictionary import add_to_dictionary
 
 goodgoods = {'Burger': 8.7,
              'Ramen': 5.8

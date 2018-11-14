@@ -1,4 +1,4 @@
-from hrm_read import voltage_extremes
+from functions.hrm_read import voltage_extremes
 import pytest
 import numpy
 

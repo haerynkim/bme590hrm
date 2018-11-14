@@ -1,4 +1,4 @@
-from find_peak import find_peak
+from functions.find_peak import find_peak
 import numpy
 
 

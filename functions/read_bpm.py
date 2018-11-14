@@ -1,7 +1,6 @@
 from warnings import warn
 import numpy
-from hrm_read import read_data
-from find_peak import find_peak
+from functions.find_peak import find_peak
 
 def read_bpm(time, voltage, starttime=0, endtime=20):
     """ This function calculates the average heart rate over user-specified integer number of seconds and returns

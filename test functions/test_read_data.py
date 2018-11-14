@@ -1,4 +1,4 @@
-from hrm_read import read_data
+from functions.hrm_read import read_data
 
 def test_read_data():
     """

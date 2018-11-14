@@ -1,6 +1,6 @@
 import os
 import pytest
-from write_json import write_json
+from functions.write_json import write_json
 
 
 @pytest.fixture
